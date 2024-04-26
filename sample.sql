@@ -218,4 +218,8 @@ from
     natural join department d;
 
 -- 
-
+select
+    *
+from
+    employee
+    cross join department;
